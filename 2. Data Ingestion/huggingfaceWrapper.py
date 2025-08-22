@@ -2,9 +2,8 @@ import os
 import requests
 import pandas as pd
 from datetime import datetime
-from logger import log_message   # your custom logger
 
-def download_hf_dataset():
+def download_hf_dataset(logger):
     url = "https://datasets-server.huggingface.co/rows"
     params = {
         "dataset": "aai510-group1/telco-customer-churn",
@@ -18,7 +17,7 @@ def download_hf_dataset():
     while True:
         response = requests.get(url, params=params)
         if response.status_code != 200:
-            log_message(f"Error: HTTP {response.status_code}")
+            logger.log(f"Error: HTTP {response.status_code}")
             break
 
         data = response.json()
@@ -34,10 +33,10 @@ def download_hf_dataset():
         # Update offset for next batch
         params["offset"] += params["length"]
 
-        log_message(f"Downloaded {len(all_rows)} rows so far...")
+        logger.log(f"Downloaded {len(all_rows)} rows so far...")
 
     if not all_rows:
-        log_message("No data downloaded.")
+        logger.log("No data downloaded.")
         return None
 
     # Convert to DataFrame
@@ -46,7 +45,7 @@ def download_hf_dataset():
     # Build save path
     today = datetime.now()
     base_dir = os.path.join(
-        "..", "3. Raw Data Storage", "HuggingFace",
+        "3. Raw Data Storage", "HuggingFace",
         today.strftime("%Y"), today.strftime("%m"), today.strftime("%d")
     )
     os.makedirs(base_dir, exist_ok=True)
@@ -55,6 +54,6 @@ def download_hf_dataset():
 
     # Save to CSV
     df.to_csv(csv_path, index=False)
-    log_message(f"Download complete! Total rows: {len(df)}. Saved to {csv_path}")
+    logger.log(f"Download complete! Total rows: {len(df)}. Saved to {csv_path}")
 
     return csv_path
