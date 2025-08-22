@@ -4,6 +4,11 @@ import zipfile
 import os
 import pandas as pd
 from datetime import datetime
+import shutil
+
+# Path where Kaggle saves the file
+raw_file = "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+renamed_file = "customer_churn_dataset.csv"
 
 def get_kaggle_json_path(kaggle_json_path=None):
     """
@@ -59,7 +64,14 @@ def download_kaggle_dataset(dataset: str, logger, kaggle_json_path=None, base_di
         csv_path = os.path.join(datedir, csv_files[0])
         logger.log(f"CSV extracted and saved at {csv_path}")
 
-        return csv_path
+        # Rename (or move to a new location)
+        if os.path.exists(os.path.join(datedir, raw_file)):
+            shutil.move(os.path.join(datedir, raw_file), os.path.join(datedir, renamed_file))
+            print(f"Renamed file to: {renamed_file}")
+        else:
+            print(f"File {raw_file} not found.")
+
+        return renamed_file
 
     except Exception as e:
         logger.log(f"Error occurred: {e}")

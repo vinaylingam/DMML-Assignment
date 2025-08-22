@@ -6,7 +6,7 @@ from datetime import datetime
 def download_hf_dataset(logger):
     url = "https://datasets-server.huggingface.co/rows"
     params = {
-        "dataset": "aai510-group1/telco-customer-churn",
+        "dataset": "scikit-learn/churn-prediction",
         "config": "default",
         "split": "train",
         "offset": 0,
@@ -33,8 +33,6 @@ def download_hf_dataset(logger):
         # Update offset for next batch
         params["offset"] += params["length"]
 
-        logger.log(f"Downloaded {len(all_rows)} rows so far...")
-
     if not all_rows:
         logger.log("No data downloaded.")
         return None
@@ -50,7 +48,7 @@ def download_hf_dataset(logger):
     )
     os.makedirs(base_dir, exist_ok=True)
 
-    csv_path = os.path.join(base_dir, "telco_customer_churn_full.csv")
+    csv_path = os.path.join(base_dir, "customer_churn_dataset.csv")
 
     # Save to CSV
     df.to_csv(csv_path, index=False)

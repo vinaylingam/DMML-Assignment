@@ -53,3 +53,21 @@
 [2025-08-23 00:49:38] Downloaded 4225 rows so far...
 [2025-08-23 00:49:40] Download complete! Total rows: 4225. Saved to 3. Raw Data Storage\HuggingFace\2025\08\23\telco_customer_churn_full.csv
 [2025-08-23 00:49:40] Hugging Face churn CSV saved at: 3. Raw Data Storage\HuggingFace\2025\08\23\telco_customer_churn_full.csv
+[2025-08-23 01:11:20] --------------------------- Kaggle -------------------------------------------
+[2025-08-23 01:11:20] Starting download for dataset: blastchar/telco-customer-churn
+[2025-08-23 01:11:22] Downloaded ZIP file to 3. Raw Data Storage\Kaggle\2025\08\23\dataset.zip
+[2025-08-23 01:11:22] CSV extracted and saved at 3. Raw Data Storage\Kaggle\2025\08\23\WA_Fn-UseC_-Telco-Customer-Churn.csv
+[2025-08-23 01:11:22] Kaggle churn CSV saved at: customer_churn_dataset.csv
+[2025-08-23 01:11:22] --------------------------- Hugging Face -------------------------------------
+[2025-08-23 01:12:15] Error: HTTP 429
+[2025-08-23 01:12:15] Download complete! Total rows: 5000. Saved to 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 01:12:15] Hugging Face churn CSV saved at: 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 01:13:48] --------------------------- Kaggle -------------------------------------------
+[2025-08-23 01:13:48] Starting download for dataset: blastchar/telco-customer-churn
+[2025-08-23 01:13:51] Downloaded ZIP file to 3. Raw Data Storage\Kaggle\2025\08\23\dataset.zip
+[2025-08-23 01:13:51] CSV extracted and saved at 3. Raw Data Storage\Kaggle\2025\08\23\WA_Fn-UseC_-Telco-Customer-Churn.csv
+[2025-08-23 01:13:51] Kaggle churn CSV saved at: customer_churn_dataset.csv
+[2025-08-23 01:13:51] --------------------------- Hugging Face -------------------------------------
+[2025-08-23 01:17:25] Error: HTTP 429
+[2025-08-23 01:17:25] Download complete! Total rows: 7043. Saved to 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 01:17:25] Hugging Face churn CSV saved at: 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
