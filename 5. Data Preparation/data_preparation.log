@@ -1,0 +1,20 @@
+[2025-08-23 23:07:24] -------------------------------------------------------
+[2025-08-23 23:07:24] data preparation Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 23:07:24] Loaded CSV with shape (7043, 21)
+[2025-08-23 23:07:24] Starting data cleaning
+[2025-08-23 23:07:24] Data cleaning completed successfully
+[2025-08-23 23:07:24] Pipeline failed: Cannot save file into a non-existent directory: '5. Data Preparation\HuggingFace\2025\08\23'
+[2025-08-23 23:09:08] -------------------------------------------------------
+[2025-08-23 23:09:08] data preparation Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 23:09:09] Loaded CSV with shape (7043, 21)
+[2025-08-23 23:09:09] Starting data cleaning
+[2025-08-23 23:09:09] Data cleaning completed successfully
+[2025-08-23 23:09:09] Cleaned CSV saved to 5. Data Preparation\HuggingFace\2025\08\23\cleaned_churn_dataset.csv
+[2025-08-23 23:09:09] Pipeline completed successfully
+[2025-08-23 23:09:09] -------------------------------------------------------
+[2025-08-23 23:09:09] data preparation Pipeline started for 3. Raw Data Storage\Kaggle\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 23:09:09] Loaded CSV with shape (7043, 21)
+[2025-08-23 23:09:09] Starting data cleaning
+[2025-08-23 23:09:09] Data cleaning completed successfully
+[2025-08-23 23:09:09] Cleaned CSV saved to 5. Data Preparation\Kaggle\2025\08\23\cleaned_churn_dataset.csv
+[2025-08-23 23:09:09] Pipeline completed successfully
