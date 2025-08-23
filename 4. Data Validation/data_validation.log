@@ -1,0 +1,52 @@
+[2025-08-23 22:06:17] Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:06:17] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:06:17] Starting data validation
+[2025-08-23 22:06:17] Validation failed: Cannot save file into a non-existent directory: '..\4. Data Validation\HuggingFace\2025\08\23'
+[2025-08-23 22:06:17] Pipeline failed: Cannot save file into a non-existent directory: '..\4. Data Validation\HuggingFace\2025\08\23'
+[2025-08-23 22:08:31] Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:08:31] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:08:31] Starting data validation
+[2025-08-23 22:08:31] Validation failed: [Errno 13] Permission denied: '..\\4. Data Validation\\HuggingFace\\2025\\08\\23\\validation_report.xlsx'
+[2025-08-23 22:08:31] Pipeline failed: [Errno 13] Permission denied: '..\\4. Data Validation\\HuggingFace\\2025\\08\\23\\validation_report.xlsx'
+[2025-08-23 22:09:17] Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:09:17] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:09:17] Starting data validation
+[2025-08-23 22:09:17] Validation failed: [Errno 13] Permission denied: '4. Data Validation\\HuggingFace\\2025\\08\\23\\validation_report.xlsx'
+[2025-08-23 22:09:17] Pipeline failed: [Errno 13] Permission denied: '4. Data Validation\\HuggingFace\\2025\\08\\23\\validation_report.xlsx'
+[2025-08-23 22:11:48] Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:11:48] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:11:48] Starting data validation
+[2025-08-23 22:11:49] Validation failed: [Errno 13] Permission denied: '4. Data Validation\\HuggingFace\\2025\\08\\23\\validation_report.xlsx'
+[2025-08-23 22:11:49] Pipeline failed: [Errno 13] Permission denied: '4. Data Validation\\HuggingFace\\2025\\08\\23\\validation_report.xlsx'
+[2025-08-23 22:12:31] Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:12:31] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:12:31] Starting data validation
+[2025-08-23 22:12:31] Validation report saved to 4. Data Validation\HuggingFace\2025\08\23\validation_report.xlsx
+[2025-08-23 22:12:31] Starting data cleaning
+[2025-08-23 22:12:31] Data cleaning completed successfully
+[2025-08-23 22:12:31] Cleaned CSV saved to 4. Data Validation\HuggingFace\2025\08\23\cleaned.csv
+[2025-08-23 22:12:31] Pipeline completed successfully
+[2025-08-23 22:12:31] Pipeline started for 3. Raw Data Storage\Kaggle\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:12:31] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:12:31] Starting data validation
+[2025-08-23 22:12:31] Validation report saved to 4. Data Validation\Kaggle\2025\08\23\validation_report.xlsx
+[2025-08-23 22:12:31] Starting data cleaning
+[2025-08-23 22:12:31] Data cleaning completed successfully
+[2025-08-23 22:12:31] Cleaned CSV saved to 4. Data Validation\Kaggle\2025\08\23\cleaned.csv
+[2025-08-23 22:12:31] Pipeline completed successfully
+[2025-08-23 22:24:31] Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:24:31] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:24:31] Starting data validation
+[2025-08-23 22:24:31] Validation report saved to 4. Data Validation\HuggingFace\2025\08\23\validation_report.xlsx
+[2025-08-23 22:24:31] Starting data cleaning
+[2025-08-23 22:24:31] Data cleaning completed successfully
+[2025-08-23 22:24:31] Cleaned CSV saved to 4. Data Validation\HuggingFace\2025\08\23\cleaned.csv
+[2025-08-23 22:24:31] Pipeline completed successfully
+[2025-08-23 22:24:31] Pipeline started for 3. Raw Data Storage\Kaggle\2025\08\23\customer_churn_dataset.csv
+[2025-08-23 22:24:31] Loaded CSV with shape (7043, 21)
+[2025-08-23 22:24:31] Starting data validation
+[2025-08-23 22:24:31] Validation report saved to 4. Data Validation\Kaggle\2025\08\23\validation_report.xlsx
+[2025-08-23 22:24:31] Starting data cleaning
+[2025-08-23 22:24:31] Data cleaning completed successfully
+[2025-08-23 22:24:31] Cleaned CSV saved to 4. Data Validation\Kaggle\2025\08\23\cleaned.csv
+[2025-08-23 22:24:31] Pipeline completed successfully
