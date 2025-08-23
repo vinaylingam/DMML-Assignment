@@ -23,7 +23,7 @@ def get_kaggle_json_path(kaggle_json_path=None):
         )
     return kaggle_json_path
 
-def download_kaggle_dataset(dataset: str, logger, kaggle_json_path=None, base_dir="3. Raw Data Storage\Kaggle"):
+def download_kaggle_dataset(dataset: str, logger, kaggle_json_path=None, base_dir=fr"3. Raw Data Storage\Kaggle"):
     try:
         kaggle_json_path = get_kaggle_json_path()
 
