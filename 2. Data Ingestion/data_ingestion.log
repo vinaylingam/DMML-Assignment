@@ -78,3 +78,12 @@
 [2025-08-23 16:00:27] Starting data validation
 [2025-08-23 16:00:27] Validation failed: No module named 'openpyxl'
 [2025-08-23 16:00:27] Pipeline failed: No module named 'openpyxl'
+[2025-08-24 11:22:17] --------------------------- Kaggle -------------------------------------------
+[2025-08-24 11:22:17] Starting download for dataset: blastchar/telco-customer-churn
+[2025-08-24 11:22:20] Downloaded ZIP file to 3. Raw Data Storage\Kaggle\2025\08\24\dataset.zip
+[2025-08-24 11:22:20] CSV extracted and saved at 3. Raw Data Storage\Kaggle\2025\08\24\WA_Fn-UseC_-Telco-Customer-Churn.csv
+[2025-08-24 11:22:20] Kaggle churn CSV saved at: customer_churn_dataset.csv
+[2025-08-24 11:22:20] --------------------------- Hugging Face -------------------------------------
+[2025-08-24 11:23:00] Error: HTTP 429
+[2025-08-24 11:23:00] Download complete! Total rows: 4500. Saved to 3. Raw Data Storage\HuggingFace\2025\08\24\customer_churn_dataset.csv
+[2025-08-24 11:23:00] Hugging Face churn CSV saved at: 3. Raw Data Storage\HuggingFace\2025\08\24\customer_churn_dataset.csv
