@@ -22,24 +22,24 @@ def data_preparation():
 
 @task
 def data_transformation():
-    # pm.execute_notebook(
-    #     "data_transformation/data_transformation_code.ipynb",   # input notebook
-    #     "data_transformation/data_transformation_code_output.ipynb",  # output notebook with executed cells
-    # )
+    pm.execute_notebook(
+        "data_transformation/data_transformation_code.ipynb",   # input notebook
+        "data_transformation/data_transformation_code_output.ipynb",  # output notebook with executed cells
+    )
     print("data transformation completed")
 
 @task
 def feature_store():
-    #saveData()
+    saveData()
     print("data features stored in sqlite database")
     pass
 
 @task
 def train_model():
-    # pm.execute_notebook(
-    #     "model_building/NeuralNetwork.ipynb",   # input notebook
-    #     "model_building/NeuralNetwork_Output.ipynb",  # output notebook with executed cells
-    # )
+    pm.execute_notebook(
+        "model_building/NeuralNetwork.ipynb",   # input notebook
+        "model_building/NeuralNetwork_Output.ipynb",  # output notebook with executed cells
+    )
     print("model is trained and it's version is stored")
     pass
 
