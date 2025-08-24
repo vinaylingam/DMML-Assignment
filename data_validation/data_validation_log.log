@@ -60,3 +60,13 @@
 [2025-08-24 11:25:18] Starting data validation
 [2025-08-24 11:25:18] Validation report saved to 4. Data Validation\Kaggle\2025\08\24\validation_report.xlsx
 [2025-08-24 11:25:18] Pipeline completed successfully
+[2025-08-24 22:22:10] Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\24\customer_churn_dataset.csv
+[2025-08-24 22:22:10] Loaded CSV with shape (5000, 21)
+[2025-08-24 22:22:10] Starting data validation
+[2025-08-24 22:22:10] Validation report saved to data_validation\HuggingFace\2025\08\24\validation_report.xlsx
+[2025-08-24 22:22:10] Pipeline completed successfully
+[2025-08-24 22:22:10] Pipeline started for 3. Raw Data Storage\Kaggle\2025\08\24\customer_churn_dataset.csv
+[2025-08-24 22:22:10] Loaded CSV with shape (7043, 21)
+[2025-08-24 22:22:10] Starting data validation
+[2025-08-24 22:22:11] Validation report saved to data_validation\Kaggle\2025\08\24\validation_report.xlsx
+[2025-08-24 22:22:11] Pipeline completed successfully

@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from logger import Logger
+from .logger import Logger
 
 def validate_and_report(df: pd.DataFrame, report_path: str, logger: Logger):
     try:
