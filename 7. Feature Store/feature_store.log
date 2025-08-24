@@ -1,0 +1,8 @@
+[2025-08-24 13:23:54] fetched perpared data from {path}
+[2025-08-24 13:24:13] fetched perpared data from 6. Data Transformation and Storage\master csv\2025\08\24\prepared_data.csv
+[2025-08-24 13:24:13] saving data to feature_store failed
+[2025-08-24 13:24:35] fetched perpared data from 6. Data Transformation and Storage\master csv\2025\08\24\prepared_data.csv
+[2025-08-24 13:28:46] fetched perpared data from 6. Data Transformation and Storage\master csv\2025\08\24\prepared_data.csv
+[2025-08-24 13:29:09] fetched perpared data from 6. Data Transformation and Storage\master csv\2025\08\24\prepared_data.csv
+[2025-08-24 13:30:02] fetched perpared data from 6. Data Transformation and Storage\master csv\2025\08\24\prepared_data.csv
+[2025-08-24 13:30:02] successfully saved data to feature_store
