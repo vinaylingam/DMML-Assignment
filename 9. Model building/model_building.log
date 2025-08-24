@@ -1,0 +1,5 @@
+[2025-08-24 19:06:08] Building Neural network model for churn dataset on 2025\08\24
+[2025-08-24 19:06:11] fetched data from feature_store.db
+[2025-08-24 19:06:52] model training completed
+[2025-08-24 19:06:52] models test accuracy: 0.7977479696273804
+[2025-08-24 19:07:02] model succesfully saved at saved-models\2025\08\24\churn_nn_1907.keras

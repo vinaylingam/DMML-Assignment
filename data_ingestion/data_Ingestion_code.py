@@ -1,10 +1,10 @@
-from kaggleWrapper import download_kaggle_dataset
-from huggingfaceWrapper import download_hf_dataset
-from logger import Logger
+from .kaggleWrapper import download_kaggle_dataset
+from .huggingfaceWrapper import download_hf_dataset
+from .logger import Logger
 
-logger = Logger("2. Data Ingestion/data_ingestion.log")
+logger = Logger("Data_Ingestion/data_ingestion.log")
 
-if __name__ == "__main__":
+def fetchData():
     logger.log("--------------------------- Kaggle -------------------------------------------")
     try:
         csv_path = download_kaggle_dataset("blastchar/telco-customer-churn", logger)

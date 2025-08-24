@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 class Logger:
-    def __init__(self, log_file="2. Data Ingestion/data_ingestion.log"):
+    def __init__(self, log_file="Data_Ingestion/data_ingestion.log"):
         """
         Initialize Logger with a log file path.
         Ensures directory exists.
