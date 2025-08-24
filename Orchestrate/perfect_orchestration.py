@@ -2,6 +2,7 @@ from prefect import flow, task
 import papermill as pm
 from data_ingestion.data_Ingestion_code import fetchData
 from data_validation.data_validation_code import validateData
+from data_preparation.data_process import data_prepare
 
 @task
 def data_ingestion():
@@ -15,6 +16,7 @@ def data_validation():
 
 @task
 def data_preparation():
+    data_prepare()
     print("data preparation completed")
     pass
 
