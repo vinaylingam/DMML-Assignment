@@ -114,3 +114,17 @@
 [2025-08-24 22:22:10] Error: HTTP 429
 [2025-08-24 22:22:10] Download complete! Total rows: 5000. Saved to 3. Raw Data Storage\HuggingFace\2025\08\24\customer_churn_dataset.csv
 [2025-08-24 22:22:10] Hugging Face churn CSV saved at: 3. Raw Data Storage\HuggingFace\2025\08\24\customer_churn_dataset.csv
+[2025-08-24 22:54:49] --------------------------- Kaggle -------------------------------------------
+[2025-08-24 22:54:49] Starting download for dataset: blastchar/telco-customer-churn
+[2025-08-24 22:54:51] Downloaded ZIP file to 3. Raw Data Storage\Kaggle\2025\08\24\dataset.zip
+[2025-08-24 22:54:51] CSV extracted and saved at 3. Raw Data Storage\Kaggle\2025\08\24\customer_churn_dataset.csv
+[2025-08-24 22:54:52] Kaggle churn CSV saved at: customer_churn_dataset.csv
+[2025-08-24 22:54:52] --------------------------- Hugging Face -------------------------------------
+[2025-08-24 22:54:52] Hugging Face churn CSV saved at: 
+[2025-08-24 22:55:36] --------------------------- Kaggle -------------------------------------------
+[2025-08-24 22:55:36] Starting download for dataset: blastchar/telco-customer-churn
+[2025-08-24 22:55:38] Downloaded ZIP file to 3. Raw Data Storage\Kaggle\2025\08\24\dataset.zip
+[2025-08-24 22:55:38] CSV extracted and saved at 3. Raw Data Storage\Kaggle\2025\08\24\customer_churn_dataset.csv
+[2025-08-24 22:55:38] Kaggle churn CSV saved at: customer_churn_dataset.csv
+[2025-08-24 22:55:38] --------------------------- Hugging Face -------------------------------------
+[2025-08-24 22:55:38] Hugging Face churn CSV saved at: 

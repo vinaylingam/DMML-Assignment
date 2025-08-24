@@ -16,7 +16,8 @@ def fetchData():
 
     logger.log("--------------------------- Hugging Face -------------------------------------")
     try:
-        csv_path = download_hf_dataset(logger)
+        # csv_path = download_hf_dataset(logger)
+        csv_path = ''
         logger.log(f"Hugging Face churn CSV saved at: {csv_path}")
         print(f"Hugging Face churn CSV available at: {csv_path}")
     except Exception as e:
