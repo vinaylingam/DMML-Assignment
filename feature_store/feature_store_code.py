@@ -8,9 +8,9 @@ def saveData():
     conn = sqlite3.connect("feature_store.db")
     cursor = conn.cursor()
 
-    preparedDataset_path = '6. Data Transformation and Storage'
+    preparedDataset_path = 'data_transformation'
     csvName = 'prepared_data.csv'
-    logger = Logger(fr'7. Feature Store\feature_store.log')
+    logger = Logger(fr'feature_store\feature_store.log')
 
     today = datetime.today().strftime("%Y\\%m\\%d")
     path = os.path.join(preparedDataset_path, "master csv", today, csvName)

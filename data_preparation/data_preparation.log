@@ -102,3 +102,17 @@
 [2025-08-24 22:55:39] Data cleaning completed successfully
 [2025-08-24 22:55:39] Cleaned CSV saved to data_preparation\Kaggle\2025\08\24\cleaned_churn_dataset.csv
 [2025-08-24 22:55:39] Pipeline completed successfully
+[2025-08-26 08:20:15] -------------------------------------------------------
+[2025-08-26 08:20:15] data preparation Pipeline started for 3. Raw Data Storage\HuggingFace\2025\08\26\customer_churn_dataset.csv
+[2025-08-26 08:20:15] Loaded CSV with shape (4500, 21)
+[2025-08-26 08:20:15] Starting data cleaning
+[2025-08-26 08:20:15] Data cleaning completed successfully
+[2025-08-26 08:20:15] Cleaned CSV saved to data_preparation\HuggingFace\2025\08\26\cleaned_churn_dataset.csv
+[2025-08-26 08:20:15] Pipeline completed successfully
+[2025-08-26 08:20:15] -------------------------------------------------------
+[2025-08-26 08:20:15] data preparation Pipeline started for 3. Raw Data Storage\Kaggle\2025\08\26\customer_churn_dataset.csv
+[2025-08-26 08:20:15] Loaded CSV with shape (7043, 21)
+[2025-08-26 08:20:15] Starting data cleaning
+[2025-08-26 08:20:15] Data cleaning completed successfully
+[2025-08-26 08:20:15] Cleaned CSV saved to data_preparation\Kaggle\2025\08\26\cleaned_churn_dataset.csv
+[2025-08-26 08:20:15] Pipeline completed successfully

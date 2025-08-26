@@ -45,9 +45,9 @@ def train_model():
 
 @flow
 def churn_pipeline():
-    data_ingestion()
-    data_validation()  
-    data_preparation()  
+    #data_ingestion()
+    #data_validation()  
+    #data_preparation()  
     data_transformation()
     feature_store()
     train_model()
